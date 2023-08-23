@@ -17,7 +17,7 @@ namespace classTableware {
 		int getId();
 		~Tableware();
 
-		// Overrided functions
+		// Overridden functions
 		void setPrice(float price);
 		float getPrice();
 

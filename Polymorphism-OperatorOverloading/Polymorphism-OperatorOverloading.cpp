@@ -1,5 +1,5 @@
 ﻿/* Menu and the entry point of the program.
-   Press 1 to calculate the total purchase sum via overrided methods.
+   Press 1 to calculate the total purchase sum via overridden methods.
    Press 2 to to display data members.
    Press 3 to quit the program */
 
@@ -28,7 +28,7 @@ void validateInput() {
     }
 }
 
-// Calculate the total purchase sum via overrided methods "setPrice()"
+// Calculate the total purchase sum via overridden methods "setPrice()"
 float computedValue(Tableware& tableware, Foodstuff& foodstuff) {
     tableware.setPrice((float)rand());
     foodstuff.setPrice((float)rand());
@@ -56,7 +56,7 @@ int main() {
         Tableware* tableware;
         Foodstuff* foodstuff;
         switch (input) {
-            // Calculate the total purchase sum via overrided methods
+            // Calculate the total purchase sum via overridden methods
             case 1:
                 tableware = new Tableware[3];
                 foodstuff = new Foodstuff[3];

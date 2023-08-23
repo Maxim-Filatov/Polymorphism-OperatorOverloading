@@ -17,7 +17,7 @@ namespace classFoodstuff {
 		int getId();
 		~Foodstuff();
 
-		// Overrided functions
+		// Overridden functions
 		void setPrice(float price);
 		float getPrice();
 

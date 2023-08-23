@@ -25,7 +25,7 @@ int Tableware::getId() {
 // Destructor
 Tableware::~Tableware() {}
 
-// Overrided functions
+// Overridden functions
 void Tableware::setPrice(float price) {
 	tablewarePrice = price;
 }

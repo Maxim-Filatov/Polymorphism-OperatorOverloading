@@ -25,7 +25,7 @@ int Foodstuff::getId() {
 // Destructor
 Foodstuff::~Foodstuff() {}
 
-// Overrided functions
+// Overridden functions
 void Foodstuff::setPrice(float price) {
 	foodPrice = price;
 }
